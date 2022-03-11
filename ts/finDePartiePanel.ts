@@ -71,7 +71,7 @@ export default class FinDePartiePanel {
     let afficherChrono = (Sauvegardeur.chargerConfig() ?? Configuration.Default).afficherChrono;
 
     const entete =
-      "SUTOM #" +
+      "MOTAVUS #" +
       numeroGrille +
       " " +
       (estBonneReponse ? resultats.length : "-") +
@@ -108,7 +108,7 @@ export default class FinDePartiePanel {
       event.stopPropagation();
       new Promise((resolve, reject) => {
         if (window.navigator.clipboard !== undefined) {
-          return resolve(window.navigator.clipboard.writeText(this._resumeTexte + "\n\nhttps://sutom.nocle.fr"));
+          return resolve(window.navigator.clipboard.writeText(this._resumeTexte + "\n\nhttps:motavus.fr"));
         }
 
         return reject();

@@ -43,8 +43,8 @@ fs.readFile("data/mots.txt", "UTF8", function (erreur, contenu) {
     .filter(
       (mot) =>
         !(mot[0] === mot[0].toUpperCase()) &&
-        mot.length >= 6 &&
-        mot.length <= 9 &&
+        mot.length >= 5 &&
+        mot.length <= 12 &&
         !mot.includes("!") &&
         !mot.includes(" ") &&
         !mot.includes("-") &&
@@ -52,7 +52,6 @@ fs.readFile("data/mots.txt", "UTF8", function (erreur, contenu) {
         !mot.toUpperCase().startsWith("Q") &&
         !mot.toUpperCase().startsWith("W") &&
         !mot.toUpperCase().startsWith("X") &&
-        !mot.toUpperCase().startsWith("Y") &&
         !mot.toUpperCase().startsWith("Z")
     )
     .filter(function (elem, index, self) {
@@ -70,8 +69,8 @@ fs.readFile("data/mots.txt", "UTF8", function (erreur, contenu) {
 
   ecrireDictionnaire(dictionnaire);
 
-  let longueurs = [6, 7, 8, 9];
-  let initialesPossibles = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "O", "P", "R", "S", "T", "U", "V"];
+  let longueurs = [5, 6, 7, 8, 9, 10, 11, 12];
+  let initialesPossibles = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "O", "P", "R", "S", "T", "U", "V", "Y"];
   for (let longueur of longueurs) {
     for (let initiale of initialesPossibles) {
       let dicoFiltre = dictionnaire.filter((mot) => mot.length === longueur && mot.toUpperCase().startsWith(initiale));

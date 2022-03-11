@@ -25,8 +25,8 @@ fs.readFile("data/motsATrouve.txt", "UTF8", function (erreur, contenu) {
     .filter(
       (mot) =>
         mot &&
-        mot.length >= 6 &&
-        mot.length <= 9 &&
+        mot.length >= 5 &&
+        mot.length <= 12 &&
         !mot.includes("!") &&
         !mot.includes(" ") &&
         !mot.includes("-") &&
@@ -34,7 +34,6 @@ fs.readFile("data/motsATrouve.txt", "UTF8", function (erreur, contenu) {
         !mot.toUpperCase().startsWith("Q") &&
         !mot.toUpperCase().startsWith("W") &&
         !mot.toUpperCase().startsWith("X") &&
-        !mot.toUpperCase().startsWith("Y") &&
         !mot.toUpperCase().startsWith("Z")
     )
     .join("\n");

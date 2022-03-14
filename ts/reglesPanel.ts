@@ -41,11 +41,12 @@ export default class ReglesPanel {
       "Les lettres qui restent sur fond bleu ne sont pas dans le mot.<br />" +
       "</div>" +
       "<p>" +
-      "Jeu largement inspiré de l'excellent <a target='_blank' href='https://framagit.org/JonathanMM/sutom'>SUTOM</a>, et du non moins brillant <a target='_blank' href='https://motchus.fr/'>MOTCHUS</a>"
+      "</p>" +
+      "<p>" +
+      "Adaptation de l'excellent <a target='_blank' href='https://framagit.org/JonathanMM/sutom'>SUTOM</a> et du non moins brillant <a target='_blank' href='https://motchus.fr/'>MOTCHUS</a> en version Lyonnaise par <a target='_blank' href='https://skoli.fr/'>Agence Skoli</a>."
+      'Avec nos remerciements au gone <a target="_blank" href="https://www.linkedin.com/in/enzo-l%C3%A9onard-%F0%9F%8C%B1-5aa1a9139/?originalSubdomain=fr">Enzo</a>' +
       'En cas de soucis, vous pouvez contacter <a href="https://twitter.com/AgenceSkoli">@AgenceSkoli</a> sur twitter. −' +
-      'Avec nos remerciements à <a target="_blank" href="https://www.linkedin.com/in/enzo-l%C3%A9onard-%F0%9F%8C%B1-5aa1a9139/?originalSubdomain=fr">Enzo</a>' +
       "Avec l'aide de l'excellent dictionnaire lyonnais <a target='_blank' href='http://parlerlyon.free.fr/'>ParlerLyon</a>" +
-      'Basé sur l\'excellent <a target="_blank" href="https://www.powerlanguage.co.uk/wordle/">Wordle</a> et le regretté Motus.<br />' +
       "</p>";
 
     this._panelManager.setContenu(titre, contenu);

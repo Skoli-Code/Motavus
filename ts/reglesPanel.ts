@@ -24,14 +24,14 @@ export default class ReglesPanel {
       "<p>" +
       "Vous avez six essais pour deviner le mot du jour, entre 5 et 12 lettres, commun à tous.<br />" +
       "Vous ne pouvez proposer que des mots commençant par la même lettre que le mot recherché, et qui se trouvent dans notre dictionnaire.<br />" +
-      "Le mot change chaque jour. Évitez donc les spoils et privilégiez le bouton de partage.<br />" +
+      "Le mot change chaque jour. Évitez donc les divulgachages et privilégiez le bouton de partage.<br />" +
       "</p>" +
       '<div class="grille">' +
       "<table>" +
       "<tr>" +
-      '<td class="resultat bien-place">S</td>' +
+      '<td class="resultat bien-place">C</td>' +
       '<td class="resultat non-trouve">A</td>' +
-      '<td class="resultat non-trouve">L</td>' +
+      '<td class="resultat non-trouve">N</td>' +
       '<td class="resultat mal-place">U</td>' +
       '<td class="resultat mal-place">T</td>' +
       "</tr>" +

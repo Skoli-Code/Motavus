@@ -44,9 +44,9 @@ export default class ReglesPanel {
       "</p>" +
       "<p>" +
       "Adaptation de l'excellent <a target='_blank' href='https://framagit.org/JonathanMM/sutom'>SUTOM</a> et du non moins brillant <a target='_blank' href='https://motchus.fr/'>MOTCHUS</a> en version Lyonnaise par <a target='_blank' href='https://skoli.fr/'>Agence Skoli</a>."
-      'Avec nos remerciements au gone <a target="_blank" href="https://www.linkedin.com/in/enzo-l%C3%A9onard-%F0%9F%8C%B1-5aa1a9139/?originalSubdomain=fr">Enzo</a>' +
+      'Avec nos remerciements à l\'excellent gone <a target="_blank" href="https://www.linkedin.com/in/enzo-l%C3%A9onard-%F0%9F%8C%B1-5aa1a9139/?originalSubdomain=fr">Enzo Léonard</a>' +
       'En cas de soucis, vous pouvez contacter <a href="https://twitter.com/AgenceSkoli">@AgenceSkoli</a> sur twitter. −' +
-      "Avec l'aide de l'excellent dictionnaire lyonnais <a target='_blank' href='http://parlerlyon.free.fr/'>ParlerLyon</a>" +
+      "Lexique construit à partir de l'excellent dictionnaire lyonnais <a target='_blank' href='http://parlerlyon.free.fr/'>ParlerLyon</a>, que l'on a un peu étendu avec des mots plus récents" +
       "</p>";
 
     this._panelManager.setContenu(titre, contenu);
